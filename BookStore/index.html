@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>BookBit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>BookBit</h1>
+    </div>
+    <div class="books-container">
+        <div class="book">
+            <h2>Alchemist</h2>
+            <h5>Chole paule</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatem voluptates earum neque iusto ducimus itaque quos ad officiis aut facere aspernatur modi explicabo culpa animi molestias, provident corporis sed.</p>
+            <button onclick="del(event)">Delete</button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="popup">
+            <h1>~>Add New Book</h1>
+            <form>
+                <input type="text" placeholder="Book name" id="bookname">
+                <input type="text" placeholder="Author name" id="authorname">
+                <textarea placeholder="Description" id="description"></textarea>
+                <br>
+                <button id="add-button">Add</button>
+                <button id="cancel-button">Cancel</button>
+            </form>
+            
+        </div>
+    </div>
+    <button id="Add-icon">+</button>
+
+<script src="main.js"></script>
+</body>
+</html>

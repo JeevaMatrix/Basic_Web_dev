@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.wrapper{
+    background-color: black;
+    color: white;
+    width: 25em;
+    height: 30em;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+}
+input{
+    font-size: medium;
+    padding: 8px;
+    width: 65%;
+    border-radius: 5px;
+    margin: 20px;
+    margin-bottom: 0;
+}
+#in:focus{
+    outline: none;
+}
+#btn{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+#btn:hover{
+    color: rgb(195, 95, 95);
+    
+}
+#todo-list:hover{
+    cursor: pointer;
+}
+#instructions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 75px;
+    margin-top: 0;
+    font-size: small;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    color: antiquewhite;
+}
